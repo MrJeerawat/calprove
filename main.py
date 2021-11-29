@@ -1,5 +1,3 @@
-f = open('result_prove.txt', 'w')
-
 def calclulate():
     number_base = 2
     result = []
@@ -22,8 +20,6 @@ def calclulate():
             else:
                 (number_result) = (number_result * 3) + 1
                 result.append(str(number_base)+" use "+"("+str(base)+" * 3 + 1)"+  " => " + str(number_result))
-                
-        # print(str(number_base)+" => "+ str(number_result))
 
         next_base = number_base + 1
         
